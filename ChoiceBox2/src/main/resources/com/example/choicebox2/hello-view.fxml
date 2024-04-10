@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.choicebox2.HelloController">
+    <children>
+        <ChoiceBox fx:id="myChoiceBox" layoutX="237.0" layoutY="175.0" prefWidth="150.0" />
+        <Label fx:id="myLabel" alignment="CENTER" layoutX="2.0" layoutY="101.0" prefHeight="18.0" prefWidth="600.0" text="Chon le di ma">
+            <font>
+                <Font size="34.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
